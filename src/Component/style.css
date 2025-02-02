@@ -1,0 +1,24 @@
+.parentdiv{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 10px;
+  
+}
+.parentdivcolor{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgb(195, 122, 28);
+  
+}
+.maindiv{
+    margin-left: 50%;
+}
