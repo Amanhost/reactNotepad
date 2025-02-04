@@ -1,24 +1,80 @@
-.parentdiv{
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
-    border-radius: 50px;
-    cursor: pointer;
-    padding: 5px;
-    margin-top: 10px;
-  
+table{
+   border-collapse: collapse;
+   width: 100%;
+   
 }
-.parentdivcolor{
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
-    border-radius: 50px;
-    cursor: pointer;
-    padding: 5px;
-    margin-top: 10px;
-    background-color: rgb(195, 122, 28);
-  
+.table-container table{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
-.maindiv{
-    margin-left: 50%;
+
+table tr th{
+    border: 1px solid black;
+    padding: 2px;
+
+}
+table tr td{
+    border: 1px solid black;
+    padding: 2px;
+
+}
+.container input{
+    padding: 10px 12px;
+    width: 180px;
+
+}
+.inputfields{
+     padding: 10px 12px;
+    width: 180px;
+}
+
+.container{
+    border: none;
+    width: 300px;
+    padding: 5px;
+    margin: 10px;
+    height: 180px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 21px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.main-container h1{
+    text-align: center;
+    font-style: inherit;
+    border-bottom: 1px solid black;
+   
+}
+.itemcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.save-updatebutton{
+   background-color: blue;
+    padding: 10px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    float: right;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.save-updatebutton:hover{
+   background-color: rgb(48, 48, 206);
+
+}
+.main-container{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+    
+}
+.item-container{
+    padding: 10px;
 }

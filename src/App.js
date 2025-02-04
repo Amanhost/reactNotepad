@@ -1,12 +1,13 @@
-import React from "react";
-import DraftEditor from "./Component/DraftEditor";
+import logo from "./logo.svg";
+import "./App.css";
+import ExpenseTracker from "./Component/ExpenseTracker";
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <DraftEditor />
+    <div className="App">
+      <ExpenseTracker />
     </div>
   );
-};
+}
 
 export default App;
