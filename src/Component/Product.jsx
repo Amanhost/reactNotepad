@@ -8,7 +8,7 @@ const Product = ({ value, index, handleDelete, handleEdit }) => {
       <td>{value.date}</td>
       <td>{value.amount}</td>
       <td>
-        <button onClick={() => handleEdit(index)}>Edit</button>
+        <button onClick={() => handleEdit(index)}>Edit</button>&nbsp;
         <button onClick={() => handleDelete(index)}>Delete</button>
       </td>
     </tr>
